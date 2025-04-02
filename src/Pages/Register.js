@@ -20,6 +20,7 @@ function Register() {
       const response = await RegisterAdmin(value);
       if (response.success) {
         message.success(response.message);
+        window.location.href = "/login";
       } else {
         message.error(response.message);
       }

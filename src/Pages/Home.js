@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 
 function Home() {
   const navigate = useNavigate();
+  const API_URL = process.env.REACT_APP_API_URL;
+  console.log(API_URL); // Should print "https://technogiq-sm-back.onrender.com"
+
   return (
     <>
       <main className="main-area">
