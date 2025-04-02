@@ -44,6 +44,6 @@
   },
   "devDependencies": {
     "ajv": "^8.17.1"
-  },
-  "proxy": "https://technogiq-sm-back.onrender.com"
+  }
+
 }
